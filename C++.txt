@@ -19,3 +19,15 @@ For run inside build/:
 cmake ../backend
 make
 ./backend
+
+
+
+run backend 
+cd build -> 
+cmake ..
+make 
+./backend train 
+./backend serve
+
+run frontend
+root -> python -m http.server 5500 -d frontend

@@ -267,3 +267,36 @@ Use the Best preactive view in cousrse, like parameter initialization and adam e
 Allow change activation function via api 
 
 
+Loading training data...
+Loading test data...
+Training samples: 60000
+Test samples: 10000
+Starting training...
+Epoch 1/20 | Train Loss: 0.290787 | Train Accuracy: 0.915317 | Test Loss: 0.157029 | Test Accuracy: 0.9555
+Epoch 2/20 | Train Loss: 0.158233 | Train Accuracy: 0.95605 | Test Loss: 0.122482 | Test Accuracy: 0.968
+Epoch 3/20 | Train Loss: 0.129409 | Train Accuracy: 0.964283 | Test Loss: 0.121437 | Test Accuracy: 0.9651
+Epoch 4/20 | Train Loss: 0.108206 | Train Accuracy: 0.97125 | Test Loss: 0.167953 | Test Accuracy: 0.9602
+Epoch 5/20 | Train Loss: 0.106141 | Train Accuracy: 0.97245 | Test Loss: 0.107429 | Test Accuracy: 0.9733
+Epoch 6/20 | Train Loss: 0.0931333 | Train Accuracy: 0.97545 | Test Loss: 0.161058 | Test Accuracy: 0.9666
+Epoch 7/20 | Train Loss: 0.0921899 | Train Accuracy: 0.97595 | Test Loss: 0.134368 | Test Accuracy: 0.9671
+Epoch 8/20 | Train Loss: 0.0798234 | Train Accuracy: 0.979117 | Test Loss: 0.112492 | Test Accuracy: 0.9737
+Epoch 9/20 | Train Loss: 0.0776989 | Train Accuracy: 0.98005 | Test Loss: 0.147568 | Test Accuracy: 0.9688
+Epoch 10/20 | Train Loss: 0.0698048 | Train Accuracy: 0.982483 | Test Loss: 0.150293 | Test Accuracy: 0.9698
+Epoch 11/20 | Train Loss: 0.0729894 | Train Accuracy: 0.981867 | Test Loss: 0.123891 | Test Accuracy: 0.9718
+Epoch 12/20 | Train Loss: 0.0696622 | Train Accuracy: 0.983317 | Test Loss: 0.155304 | Test Accuracy: 0.9712
+Epoch 13/20 | Train Loss: 0.0653112 | Train Accuracy: 0.9838 | Test Loss: 0.257829 | Test Accuracy: 0.9636
+Epoch 14/20 | Train Loss: 0.0555039 | Train Accuracy: 0.986083 | Test Loss: 0.12653 | Test Accuracy: 0.9725
+Epoch 15/20 | Train Loss: 0.0543522 | Train Accuracy: 0.98615 | Test Loss: 0.138456 | Test Accuracy: 0.972
+Epoch 16/20 | Train Loss: 0.0648821 | Train Accuracy: 0.984383 | Test Loss: 0.14857 | Test Accuracy: 0.9725
+Epoch 17/20 | Train Loss: 0.062267 | Train Accuracy: 0.985433 | Test Loss: 0.184561 | Test Accuracy: 0.9719
+Epoch 18/20 | Train Loss: 0.0742623 | Train Accuracy: 0.98335 | Test Loss: 0.218383 | Test Accuracy: 0.9609
+Epoch 19/20 | Train Loss: 0.075886 | Train Accuracy: 0.982383 | Test Loss: 0.126534 | Test Accuracy: 0.9734
+Epoch 20/20 | Train Loss: 0.0766991 | Train Accuracy: 0.982783 | Test Loss: 0.16688 | Test Accuracy: 0.9693
+Computing final metrics...
+Final Train Loss: 0.0776961
+Final Train Accuracy: 0.983033
+Final Test Loss: 0.16688
+Final Test Accuracy: 0.9693
+Saving trained model...
+Saved to ../pretrained/mnist_model.txt
+

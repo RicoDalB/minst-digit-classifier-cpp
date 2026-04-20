@@ -56,6 +56,7 @@ void load_network(NeuralNetwork& network, const std::string& file_path) {
     if (!file) {
         throw std::runtime_error("Failed to read saved layer count from file.");
     }
+    
 
     if (saved_layer_count != static_cast<int>(layers.size())) {
         throw std::runtime_error("Saved model layer count does not match current network.");

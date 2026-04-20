@@ -25,9 +25,7 @@ int argmax(const Matrix& row_vector) {
 }
 }
 
-Predictor::Predictor()
-    : network_(784, {64, 32}, 10) {
-}
+Predictor::Predictor():network_(784, {128, 64, 32}, 10) {}
 
 void Predictor::load_model(const char* file_path) {
     WeightsIO::load_network(network_, file_path);
